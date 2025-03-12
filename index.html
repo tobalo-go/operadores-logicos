@@ -11,18 +11,21 @@
   <form id="formulario">
     <div class="checkbox-group">
       <input type="checkbox" id="checkbox1" name="checkbox1">
-      <label for="checkbox1">Opción 1</label>
+      <label for="checkbox1">VERDADERO</label>
     </div>
     <div class="checkbox-group">
       <input type="checkbox" id="checkbox2" name="checkbox2">
-      <label for="checkbox2">Opción 2</label>
+      <label for="checkbox2">FALSO</label>
     </div>
+    <button type="button" id="reset-btn">VOLVER</button>
   </form>
+  
   <div class="resultados">
-    <p>AND (&&): <span id="and-result"></span></p>
-    <p>OR (||): <span id="or-result"></span></p>
-    <p>XOR: <span id="xor-result"></span></p>
+    <p>AND: <span id="and-result"></span> <img id="and-icon" class="icono"></p>
+    <p>OR: <span id="or-result"></span> <img id="or-icon" class="icono"></p>
+    <p>XOR: <span id="xor-result"></span> <img id="xor-icon" class="icono"></p>
   </div>
+
   <script src="script.js"></script>
 </body>
 </html>
